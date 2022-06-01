@@ -1,16 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int amount_on_account = 100;   // сумму на счете начальная
-        int replenishment_amount = 1002;  // пополнение
-        int total = amount_on_account + replenishment_amount;  // сумма на стчете итоговая
-
-
-
-
+        int amountOnAccount = 100;   // сумму на счете начальная
+        int replenishmentAmount = 1002;  // пополнение
+        int total = amountOnAccount + replenishmentAmount;  // сумма на стчете итоговая
 
         int bonus;
-        if (replenishment_amount >= 1000) {
-            bonus = replenishment_amount / 100;
+        if (replenishmentAmount >= 1000) {
+            bonus = replenishmentAmount / 100;
         }else {
             bonus = 0;
         }
